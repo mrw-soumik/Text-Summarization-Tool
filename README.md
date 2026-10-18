@@ -31,16 +31,16 @@ pip install -r requirements.txt
 ### Installation
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/-Text-Summarization-Tool.git
+    git clone https://github.com/mrw-soumik/Text-Summarization-Tool.git
     ```
 2. Change into the project directory:
     ```bash
-    cd -Text-Summarization-Tool
+    cd Text-Summarization-Tool
     ```
 
 ### Usage
 
-1. **Prepare the Text**: Define your input text in `data/sample.txt` or modify the script to include your own text.
+1. **Prepare the Text**: Edit the `text` variable in `summarizer.py` (it holds the same paragraph as `data/sample.txt`) or replace it with your own text.
 2. **Run the Summarizer**:
     ```bash
     python summarizer.py
@@ -54,17 +54,9 @@ pip install -r requirements.txt
 
 ## Example Output
 
-Given an input text, the summarizer generates a concise summary based on word frequency and semantic diversity. For example:
+Given an input text, the summarizer generates a concise summary based on word frequency and semantic diversity.
 
-**Input Text**:
-```
-[Sample text goes here...]
-```
-
-**Output Summary**:
-```
-[Generated summary goes here...]
-```
+To see a sample output, run `python summarizer.py`. The script summarizes the example paragraph defined in `summarizer.py` and prints a summary of up to three sentences.
 
 ## License
 [MIT License](LICENSE)
